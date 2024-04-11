@@ -38,11 +38,11 @@ doc2dash --name jutsu -f ./build/html
 move jutsu.docset JUTSU.docset
 ```
 
-If you have some `icon.svg` and you want show icon, use [svg2png](https://github.com/v0lt/svg2png). Download `svg2png.exe` from https://github.com/v0lt/svg2png/releases, then:
+If you want set icon and you have some `icon.svg`. Get [svg2png](https://github.com/v0lt/svg2png) from [releases](https://github.com/v0lt/svg2png/releases), then:
 
 ```sh
-svg2png icon.svg -w 16 icon.png
-svg2png icon.svg -w 32 icon@2x.png
+svg2png.exe icon.svg -w 16 icon.png
+svg2png.exe icon.svg -w 32 icon@2x.png
 ```
 
 Then put `.png` into `JUTSU.docset`.
@@ -51,14 +51,14 @@ Move `JUTSU.docset` to docset storage of Zeal. The path is on: Zeal > Edit > Pre
 
 ## Use it in Keypirinha (Optional)
 
-1. Install [Zeal](https://zealdocs.org) and [Keypirinha](https://keypirinha.com)`
+1. Install [Zeal](https://zealdocs.org) and [Keypirinha](https://keypirinha.com)
 2. Install [Keypirinha-Zealous](https://github.com/bantya/Keypirinha-Zealous)
 3. Keypirinha → Configure Package → Zealous
 
 ```
 [main]
-path = "...\WhereIsZeal"
-docset_path = "...\WhereIsDocsetOfZeal"
+path = "...\PathOfZeal"
+docset_path = "...\PathOfDocset"
 results = 50
 wildcard = no
 

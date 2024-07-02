@@ -1,6 +1,14 @@
 mpv
 ===
 
+.. option:: Name Suffix etc.
+
+	``.zh&en.srt``
+
+	``.zh&es.es2zh.srt``
+
+	``.zh&en.es2en@mt2zh.srt``
+
 .. option:: kamite
 
 	::
@@ -38,3 +46,7 @@ mpv
 			--ontop \
 			--idle \
 			$*
+
+.. option:: mpv-lyric
+
+	``mpv --config-dir="MpvLyricConfigDir" --idle --force-window --merge-files --geometry=1920x1080 --no-video``

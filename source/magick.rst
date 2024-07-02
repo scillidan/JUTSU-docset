@@ -21,6 +21,10 @@ ImageMagick
 
 	``magick convert $1 -charcoal 2 _$1``
 
+.. option:: complementary color
+
+	``convert $1.png -channel RGB -negate _$1.png``
+
 .. option:: border
 
 	``magick convert $1 -bordercolor $3 -border $2 _$1``

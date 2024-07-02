@@ -16,3 +16,13 @@ Text
 .. option:: pipe-rename
 
 	``set EDITOR=.../bob/nvim-bin/nvim.exe && alacritty --config-file "alacritty_config.yml" --command "renamer.exe --yes *"``
+
+.. option:: mdict
+
+	``mdict -x $1 --exdb -d ./_db``
+
+	``mdict -x $1 -d ./_mdx``
+
+.. option:: rga
+
+	``rga $1 -g "*.epub"``

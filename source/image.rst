@@ -46,6 +46,10 @@ Image
 			-color-count $3 \
 			$1.bmp
 
+.. option:: paletter
+
+	``paletter -colors $1 $2``
+
 .. option:: color-matcher
 
 	``color-matcher -s $1 -r $2``
@@ -56,7 +60,7 @@ Image
 
 .. option:: png-to-ico
 
-	``png-to-ico $1 > $1.ico && replacer -d . -contains .png. .``
+	``png-to-ico $1 > $1.ico``
 
 .. option:: favocon
 
@@ -107,7 +111,7 @@ Image
 	  	--output _silicon.png
 
 .. option:: Take Thumbnail
-	
+
 	``mt -n 16 -c 4 --disable-timestamps --header=false $*``
 
 	``mtn -c 4 -r 4 -g 3 -k 000000 -w 1920 -i -t -D 4 -P -o _mtn.png $*``

@@ -78,6 +78,6 @@ v = Variable
 o = Option
 ```
 
-![](https://raw.githubusercontent.com/scillidan/private_cos/main/screenshot/keypirinha-zealous_srg-jutsu.png)
+![](https://raw.githubusercontent.com/scillidan/Cos_Asset/master/screenshot/keypirinha-zealous_srg-jutsu.png)
 
 But for some doc liked `Python 3.9.13`, `JUTSU` I recently created, there are some bugs.

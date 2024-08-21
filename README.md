@@ -13,7 +13,7 @@ I use [Lintalist](https://lintalist.github.io/) to save and fuzzy search command
 ```
 mkdir YourDocument
 cd YourDocument
-python39 -m venv venv
+python310 -m venv venv
 venv\Scripts\activate.bat
 pip install furo
 sphinx-quickstart
@@ -22,13 +22,19 @@ make html
 
 ## Sphinx plugins (Optional)
 
-- [sphinx-autobuild](https://github.com/sphinx-doc/sphinx-autobuild)
 - [sphinx-copybutton](https://github.com/executablebooks/sphinx-copybutton)
+- [sphinxcontrib-asciinema](https://github.com/divi255/sphinxcontrib.asciinema)
+- [sphinx-autobuild](https://github.com/sphinx-doc/sphinx-autobuild)
+
+```sh
+pip install sphinx-copybutton sphinxcontrib-asciinema
+pip install sphinx-autobuild
+```
 
 ## Make docset
 
 ```sh
-pip install doc2dash
+pipx install doc2dash
 doc2dash --name jutsu -f ./build/html
 move jutsu.docset JUTSU.docset
 ```

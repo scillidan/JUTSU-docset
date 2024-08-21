@@ -82,7 +82,7 @@ Image
 			--from-clipboard \
 			--language $1 \
 			--theme "tokyonight_moon" \
-			--font "JetBrainsMonoNL Nerd Font" \
+			--font "'MonaspiceNe NFP + Sarasa Gothic SC + WFM Sans SC'=16" \
 			--no-window-controls \
 			--pad-horiz 0 \
 			--pad-vert 0 \

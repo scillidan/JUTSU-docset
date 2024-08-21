@@ -4,7 +4,8 @@ author = 'scillidan'
 release = '0.0.1'
 
 extensions = [
-    'sphinx_copybutton'
+    'sphinx_copybutton',
+    'sphinxcontrib.asciinema'
 ]
 
 templates_path = ['_templates']
@@ -12,9 +13,9 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 html_title = "𝕵𝖀𝕿𝕾𝖀"
 html_theme = 'furo'
-html_static_path = ['_static']
+html_static_path = ['assets']
 html_css_files = [
-    'custom.css',
+    'css/custom.css',
 ]
 html_theme_options = {
     # "light_logo": "sharingan-gray.png",
@@ -35,3 +36,10 @@ html_theme_options = {
 
 pygments_style = "sphinx"
 pygments_dark_style = "monokai"
+
+sphinxcontrib_asciinema_defaults = {
+    'theme': 'nord',
+    'preload': 1,
+    'font-size': '8px',
+#    'path': 'path/to/castdir'
+}

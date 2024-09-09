@@ -25,6 +25,8 @@ FFmpeg
 
 	``ffmpeg -i $1 -map 0:s:0 $1.srt``
 
+	``ffmpeg -i $1 -map 0:s:0 -c:s copy $1.sup``
+
 .. option:: to mp4
 
 	``ffmpeg -i $1 -map 0 -c:v copy -c:a ac3 -b:a 256K -ac 2 -c:s copy _$1.mp4``

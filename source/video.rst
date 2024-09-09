@@ -22,6 +22,14 @@ Video
 
 	``vtt_to_srt $1``
 
+.. option:: ass2srtq
+
+	``ass2srt $1.ass``
+
 .. option:: handbrakecli
 
-	``handbrakecli --preset-import-file YourPreset.json --input $1 --output _$1.mp4``
+	``handbrakecli --preset-import-file <Preset.json> --input $1 --output _$1.mp4``
+
+.. option:: PgsToSrt
+
+	``dotnet PgsToSrt.dll --input $1.sup --output $1.srt --tesseractlanguage $2 --tesseractdata "C:\Users\<User>\Data\tessdata_fast"``

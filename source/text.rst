@@ -11,7 +11,7 @@ Text
 
 .. option:: neovide lvim wsl
 
-	``neovide --neovim-bin W:\home\YourName\bin\nvim --geometry 100x30 --notabs --frame none -- -u "W:\home\YourName\.local\share\lunarvim\lvim\init.lua" $*``
+	``neovide --neovim-bin W:\home\<User>\bin\nvim --geometry 100x30 --notabs --frame none -- -u "W:\home\<User>\.local\share\lunarvim\lvim\init.lua" $*``
 
 .. option:: pipe-rename
 

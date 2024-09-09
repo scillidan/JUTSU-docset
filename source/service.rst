@@ -63,4 +63,4 @@ Service
 
 .. option:: Linkding (Windows 10)
 
-	``cd linkding && set LD_SUPERUSER_NAME=YourName && set LD_SUPERUSER_PASSWORD=YourPassword && mprocs "npm run dev" "timeout 5 && .\venv\Scripts\python.exe manage.py runserver 8002"``
+	``cd linkding && set LD_SUPERUSER_NAME=<Admin> && set LD_SUPERUSER_PASSWORD=<AdminPassword> && mprocs "npm run dev" "timeout 5 && .\venv\Scripts\python.exe manage.py runserver 8002"``
